@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+
+<html>
+    
+    <head>
+        
+        <meta charset="utf-8">
+        <meta name="description" content="Coming Soon">
+        <meta name="viewport" content="width=device-width,initial-sclae=1.0">
+        <title>Site Maintaince</title>
+        
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+        
+        <style>
+            
+           
+            .headbar{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                position: fixed;
+                width: 100%;
+            }
+                    
+         
+            .companyname{
+                color: white;
+                font-size: 50px;
+                float: left;
+            }
+            
+            header img{
+                float: left;
+                padding-left: 15px;
+                padding-top: 10px;
+            }
+            
+            a{               
+               display: inline-block;
+               color: #f2f2f2;
+               text-align: center;
+               text-decoration: none;
+               font-size: 17px;
+                font-family: Josefin Sans;
+            }
+            
+            .dropdown {  
+                float:left;
+                overflow: hidden;
+                margin-top: 18px;
+                cursor: pointer;
+            }
+
+            .dropdown .dropbtn {
+              font-size: 17px;    
+              border: none;
+              outline: none;
+              color: black;
+              padding: 14px 16px;
+              margin: 0;
+            }
+
+            .dropdown-content {
+              display: none;
+              position: absolute;
+              background-color: #f9f9f9;
+              min-width: 160px;
+              box-shadow: 0px 4px 16px 0px rgba(0,0,0,0.2);
+              z-index: 1;
+            }
+
+            .dropdown-content a {
+              float: none;
+              color: grey;
+              padding: 12px 16px;
+              text-decoration: none;
+              display: block;
+              text-align: left;
+            }            
+
+            .dropdown-content a:hover {
+              background-color: #282828;
+              color: white;
+            }
+
+            .dropdown:hover .dropdown-content {
+              display: block;
+            }    
+            
+            .subnav {
+                float:left;
+                overflow: hidden;
+                margin-top: 18px;
+                cursor: pointer;
+            }
+
+            .subnav .subnavbtn {
+                  font-size: 17px;    
+                  border: none;
+                  outline: none;
+                  color: black;
+                  padding: 14px 16px;
+                  margin: 0;
+            }
+            
+            .subnav-content {
+                  display: none;
+                  position: absolute;
+                  background-color: white;
+                  margin-left: -200px;
+                  margin-top: 1px;
+                  width: 900px;
+                  height:400px;
+                  z-index: 1;
+            }
+
+            .subnav-content a {                
+                color: grey;
+                text-decoration: none;
+                padding:10px;
+            }
+            
+            
+
+            .subnav-content a:hover {
+                  background-color: #282828;
+                  color: white;
+            }
+
+            .subnav:hover .subnav-content {
+              display: block;
+            }            
+
+
+        </style>
+    
+    </head>
+    
+    <body>
+        
+        <div class="headbar">
+        
+            <header>
+                <div>
+                    <img src="logo.png" alt=""  width="250px;">  
+                    <span class="companyname">SD</span>
+                    <div class="subnav">
+                        <a class="subnavbtn">Products</a>
+                         <div class="subnav-content">
+                             <div class="subcontent">
+                                <a href="#company">Company</a>
+                                <a href="#team">Team</a>
+                                <a href="#careers">Careers</a>
+                             </div>
+                          <a href="#team">Team</a>
+                          <a href="#careers">Careers</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <a class="dropbtn">Custom Software</a>
+                        <div class="dropdown-content">
+                            <a href="#">Technology Consulting</a>
+                            <a href="#">BOS Framework</a>
+                            <a href="#">Engineering Process</a>
+                        </div>
+                    </div>
+                   
+                    
+                    
+                    <div class="dropdown">                         
+                          <a class="dropbtn">Artifical Intelligence</a>                         
+                        <div class="dropdown-content">
+                          <a href="#">SIDDY</a>
+                          <a href="#">AI for Business</a>
+                          <a href="#">Big Prime OS</a>
+                          <a href="#">Next Generation ERP</a>
+                        </div>
+                      </div> 
+                    
+                    
+                    <div class="dropdown">                         
+                          <a class="dropbtn">Industries</a>
+                        
+                        <div class="dropdown-content">
+                          <a href="#">Health Care</a>
+                          <a href="#">Government</a>
+                          <a href="#">Manufacturing</a>
+                          <a href="#">Retail</a>
+                        </div>
+                      </div>
+                    
+                     
+                     <div class="dropdown">                         
+                          <a class="dropbtn">Company</a>  
+                        
+                        <div class="dropdown-content">
+                          <a href="#">About Us</a>
+                          <a href="#">Careers</a>
+                          <a href="#">Legal</a>
+                          <a href="#">Sales Partners</a>
+                          <a href="#">Contact Us</a>
+                        </div>
+                      </div> 
+                </div>   
+               
+            </header>
+            
+            <nav>
+                
+            </nav>
+            
+        </div>    
+              
+        
+    
+    </body>
+
+
+</html>

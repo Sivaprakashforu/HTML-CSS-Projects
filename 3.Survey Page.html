@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+
+<html>
+    
+    <head>
+        
+        <meta charset="utf-8">
+        <meta name="description" content="Survey">
+        <meta name="viewport" content="width=device-width,initial-sclae=1.0">
+        <title>Survey Page</title>
+        
+        <style>
+            
+            /*,*:before,*:after{
+                box-sizing: border-box;
+            }*/
+            
+            body{
+                background-color: deepskyblue;
+                color:darkblue;
+                text-align: center;
+            }
+            
+            header,nav,section,footer{
+                border: 1px solid white;
+                margin-bottom: 10px;
+                border-radius: 3px;
+            }
+            
+            header,footer{
+                padding:20px 0;
+            }
+            
+         
+            .container{
+                width: 960px;
+                margin:0 auto;
+                background-color: aliceblue;
+            }
+            
+            nav,section,footer{
+                float:left;
+            }
+            
+            nav{
+                width:200px;
+                margin-right: 10px;
+            }
+            
+            section{
+                background-color: aliceblue;
+                width:955px;
+            }
+            
+            footer{
+                background-color: aliceblue;
+                width: 960px;
+            }
+            
+            section label,input,select{
+                
+                margin-bottom: 15px;
+                display: inline-block;
+            }
+            
+            .hf{
+                width:650px;
+                text-align: center;
+                display: inline-block;
+                margin-top: 10px;
+
+            }
+            
+            .half{
+                width:300px;
+                display: inline-block;
+            }
+            
+            a:link{
+                color:darkblue;
+                text-decoration: none;
+            }
+
+
+        </style>
+    
+    </head>
+    
+    <body>
+        
+        <div class="container">
+        
+            <header><h1>Survey</h1></header>
+            
+            <section>
+                
+                <h1>Submit Your survey Today</h1>
+                
+                <form>
+                    
+                    <div>
+                        <label id="name" name="name">Your Name</label><br>
+                        <input type="text" id="name" name="name" placeholder=" "/>
+                    </div>
+                    
+                    <div>
+                        <label id="email" name="email">Your Email</label><br>
+                        <input type="email" id="email" name="email" placeholder=" "/>
+                    </div>
+                    
+                    <div>
+                        <label for="cars">Choose a car:</label><br>
+                        <select  name="cars" id="cars">
+                          <optgroup label="Swedish Cars">
+                            <option value="volvo">Volvo</option>
+                            <option value="saab">Saab</option>
+                          </optgroup>
+                          <optgroup label="German Cars">
+                            <option value="mercedes">Mercedes</option>
+                            <option value="audi">Audi</option>
+                          </optgroup>
+                        </select>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                        <label for="vehicle1"> I have a bike</label>
+                        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                        <label for="vehicle2"> I have a car</label>
+                        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                        <label for="vehicle3"> I have a boat</label><br>
+                    
+                    </div>
+                    
+                    <div class="hf">
+                        
+                        <div class="half">
+                        <input type="submit" value="Submit">
+                        </div>
+                        <div class="half">
+                        <input type="reset" value="Clear">
+                        </div>
+                    </div>
+
+                </form>
+            
+            
+            </section>
+        
+            <footer>
+                
+                <p>Copyrights &copy; <a href="#">Bigprime.net</a></p>
+                
+            </footer>    
+        </div>
+    
+    </body>
+
+
+</html>

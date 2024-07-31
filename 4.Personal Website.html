@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+
+<html>
+    
+    <head>
+        
+        <meta charset="utf-8">
+        <meta name="description" content="Siva Prakash">
+        <meta name="viewport" content="width=device-width,initial-sclae=1.0">
+        <title>Siva's Website</title>
+        
+        <link href="https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap" rel="stylesheet">
+        
+        <style>
+            
+            body{
+                font-family: "Playwrite DE Grund", cursive;                
+                background-color: beige;
+            }
+            
+            header{
+                position: sticky;
+                top: 0; /* Key Property */
+                left: 0;
+                right: 0;
+                background-color: #30373b;
+                color:white;                
+                text-align: center;                
+                padding-bottom: 50px;
+                height:80px;
+                /* z-index: 2; */
+                /* opacity: .85; */
+            }
+            
+            nav{
+                position:sticky;
+                top: 100px; /* Key Property */
+                left: 0;
+                right: 0;
+                /* z-index: 2; */
+                /* opacity: .85; */
+            }
+            
+            h1:hover{
+                background-image: url(College.jpg);
+                background-size: cover;
+                background-clip: text;
+                -webkit-background-clip:text;
+                color: transparent;
+                font-size: 220%;
+                padding-bottom: 10px;
+                transition: 3s;
+                text-align: center;
+            }
+            
+            
+            
+            header,footer{
+                padding:20px 0;
+            }
+            
+            .foot{
+                text-align: center;
+            }
+            
+            footer{
+                margin-top: 20px;  
+                padding-bottom: 10px;
+                bottom:0;
+                left:0;
+                right:0;
+                cursor: help;
+                background-color: black;
+                color:white;                 
+            }
+            
+            footer table,footer th{
+                padding-top: 25px;
+                padding-left: 120px;
+                display: inline-block;
+            }
+            
+            footer td{
+                padding-left: 100px;
+                display: inline-block;
+            }
+          
+            
+            .container{
+                width: 1300px;
+                margin:0 auto;
+                background-color: aliceblue;
+            }
+                  
+            
+            nav{
+                padding:5px;
+                background-color: #eeeeee;                
+            }
+            
+            nav ul{
+                text-transform: uppercase;
+                list-style: none;
+                margin: 0 auto;
+                padding: 5px;
+                text-align: center;
+            }
+            
+            nav ul li{
+                display: inline-block;
+                padding: 10px 15px;
+                font-size: 1.2em;
+                text-transform: uppercase;
+            }
+            
+            a:link{
+                text-decoration: none;
+                color:#7ab55c;
+            }
+            
+            section{                
+                padding:10px;
+                display: inline-block;
+            }
+            
+            .sh2{
+                margin-top: 30px;
+            }
+            
+            section h2,p{
+                padding: 10px;
+            }
+            
+            section h2{
+                text-align: center;
+            }
+            
+            section p{
+                max-width: 1200px;
+            }
+            
+            .contact{
+                background-color: #eeeeee;
+                border:2px solid  beige;
+                text-align: center;
+                display: inline-block;
+                margin:0 auto;
+                padding-top:30px;
+                padding-bottom: 30px;
+                padding-left: 150px;
+                padding-right: 150px;
+            }
+            
+            label,input{
+                padding:5px;
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+            
+            .ch2{
+                text-transform: uppercase;
+                text-decoration:underline;
+            }
+            
+            input[type=submit],input[type=reset]{
+                background-color: #7ab55c;
+            }
+            
+            .center
+            {
+                text-align: center;
+                clear: both;
+                cursor: not-allowed;
+            }
+            
+
+            
+            img:hover{
+                
+            }
+            
+            .img1{
+                float:right;
+                height:300px;
+                width:500px;
+            }
+            
+            
+            
+            .img2{
+                float:right;
+                height:200px;
+                width:500px;
+            }
+            .img3{
+                float:right;
+                height:300px;
+                width:500px;
+            }
+            .img4{
+                float:right;
+                height:270px;
+                width:500px;
+            }
+            
+            table
+            {
+                text-align: left;
+            }
+            nav a:hover{
+                background-color: orange;
+                padding: 10px;
+                transition: 2s;
+            }
+            
+            footer li{
+                list-style: none;
+                margin-left: -20px;
+                padding-bottom: 10px;
+            }
+            .margi{
+                padding-left: 10px;
+            }
+            .marg{
+                padding-left: 175px;
+            }
+            .marg1{
+                padding-left: 115px;
+            }
+            footer hr{
+                border: 2px solid beige;
+            }
+            .image{
+                filter: drop-shadow(12px 8px 10px #ffd280);
+                border:1px solid black;
+                border-radius:50%;
+            }
+            footer a{
+                color:white;
+            }
+            
+            footer a:hover{
+                color:white;
+               
+            }
+            .sh1{
+                text-align: center;
+            }
+        </style>
+    
+    </head>
+    
+    <body>
+        
+        <div class="container">
+            
+            
+            <header>
+                
+                <h1>Siva Prakash</h1>
+
+            
+            </header>
+            
+            <nav>
+                
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>                
+                </ul>
+                    
+            </nav>
+            
+            <section id="home">
+                
+                <h1 class="sh1">Hi! I'm Siva Prakash. I'm happy to help Others.</h1>
+                
+                <div >
+                    
+                    <p><strong>Mobile Applications</strong>(ANDRIOD)<br>
+
+                    Experience in Architecting and building cutting edge Andriod apps for mobile devices in the domains of Manufacturing, Supply Chain & Logistics, Warehouse & Retail. <br><br>
+
+                    Skills- Android SDK, XML, Google API's, JSON and Created SQL database structures that integrate with Android applications and web interfaces. Wrote unit tests for mobile code and debugged critical application issuse such as crashes, memory leaks and concurrency problems.</p>
+                    
+                    <p><strong>PHP</strong><br>Primarily collaborate with pre sales executives, UI designers and other developers of our product/ enchancement process. Maintained long and short-range deliverables with product management team according to product roadmaps.</p>
+                    <div id="about"></div>
+                    <p>Designed web UI for SaaS products with HTML 5, CSS 3, JS & JS frameworks, PHP & MySql. Worked on Python packages like numpy, scipy, pytables with our Artificial Intelligence development team.<br><br>
+                    
+                    
+                    SDLC - Acted as the Scrum master managing onsite and offsite remote teams. Done Certifications in C, C++, .net. Then some workshops on Oracle and IT-Infrastructure Managament Services.</p>  
+                    
+                </div>
+                
+                <h2 class="ch2" >About</h2>
+                
+                <div>
+                    
+                        
+                    <h2 id="h01">School Life</h2>
+                    
+                    <img src="school.jpg" alt="School Life" class="img1">
+
+
+                    <table>
+                        <tr>
+                            <th><h3>3rd Standard</h3></th>
+                            <td><p>Nice start</p></td>
+                        </tr>
+                    
+                        <tr>
+                            <th><h3>8th Standard</h3></th>
+                            <td><p>Hell Life</p></td>
+                        </tr>
+                        
+                        <tr>
+                            <th><h3>10th Standard</h3></th>
+                            <td><p>Nice Life.</p></td>
+                        </tr>
+                        
+                        <tr>
+                            <th><h3>12th Standard</h3></th>
+                            <td><p>Changed life</p></td>
+                        </tr>
+                    </table>
+                        
+                    <h2 id="h02">College Life</h2>
+                    
+                    <img src="College.jpg" alt="College Life" class="img2">
+                        
+                       
+                        <h3>BCA</h3>
+                        <p>Wonderful life</p>
+                        <h3>MCA</h3>
+                        <p>Painful life</p>
+
+                    <h2 id="h03">JOB</h2>
+                    
+                    <img src="job.png" alt="Job" class="img3">
+                    
+                    <table>
+                        <tr>
+                            <th><h3>CAMS</h3></th>
+                            <td><p>My first official JOB</p></td>
+                        </tr>
+                        
+                        <tr>
+                            <th><h3>Sakthi Construction</h3></th>
+                            <td><p>My first strongest and most worked time job</p></td>
+                        </tr>
+                        <tr>
+                            <th><h3>Assitant for Assitant AE.</h3></th>
+                            <td><p>Worst Job i had ever done</p></td>
+                        </tr>
+                        <tr>
+                            <th><h3>Aircel Customer Care.</h3></th>
+                            <td><p>First Professional One.</p></td>
+                        </tr>
+                    </table>  
+
+                    <h2 id="h04">Part Time JOBS</h2>
+                    
+                    <img src="parttime.jpg" alt="Part Time Job" class="img4">
+                    
+                    <table>
+                        
+                        <tr>
+                            <th><h3>Chennai Silks</h3></th>
+                            <td><p>At College time UG gone in Diwali time. My first Part time job.</p></td>
+                        </tr>
+                        <tr>
+                            <th><h3>Tution</h3></th>
+                            <td><p>At My PG Time</p></td>
+                        </tr>
+                        <tr>
+                            <th id="contact"><h3>Starmaker</h3></th>
+                            <td><p>At my worst time of my life</p></td>
+                        </tr>
+                        <tr >
+                            <th><h3>Swiggy</h3></th>
+                            <td ><p>A Parttime/Full time during the Return of my Career.</p></td>
+                        </tr>
+                        
+                    </table>
+                    
+                </div>
+                
+                
+                <div class="center">
+                    <div  class="contact">
+                        <h2 class="ch2">Contact Me!!!</h2>
+
+                        <form>
+
+                        <div>
+                            <label name="cname" id="cname">Enter Your Name:</label><br>
+                            <input type="text" name="cnamet" id="cnamet" placeholder="Name"><br>
+                            <label name="cemail" id="cemail">Enter Your email ID: </label><br>
+                            <input type="email" name="cemail" id="cemail" placeholder="Email ID"><br>
+                            <label name="cmobile" id="cmobile">Enter Your Mobile No: </label><br>
+                            <input type="number" name="cmobilen" id="cmobilen" placeholder="Mobile Number"><br>
+                            
+                        </div>
+
+                        <div>
+                            <input type="submit" value="Submit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <input type="reset" value="Clear">
+
+                        </div>
+                        </form>
+
+                    </div>
+                </div>             
+            
+            </section>
+            
+            <footer>                
+                    <div class="footer">
+                        <hr>
+                        
+                        <form>
+                            
+                        <img src="computer-definition.png" alt="sp" height="200px" width="200px" float="left" class="image">
+                            <table>                                
+                                <tr>
+                                    <th>Pages</th>
+                                    <th class="marg1">Find Me</th>
+                                    <th class="marg">Social Media</th>
+                                </tr>
+                                
+                                <tr>
+                                    <td>
+                                        <ul>
+                                            <li><a href="#home">Home</a></li>
+                                            <li><a href="#about">About</a></li>
+                                            <li><a href="#contact">Contact</a></li>                                        
+                                        </ul>
+                                    </td>
+                                    <td>
+                                        3/5,East West Street no2,<br>Muthusamy colony,<br> Selvapuram, Coimbatore.<br>Pincode-641026.<br>
+                                        Contact no-9965297530.
+                                    </td>
+                                    <td class="margi">
+                                        <ul>
+                                            <li><strong>Mail: </strong>sivaprakashforu@gmail.com</li>
+                                            <li><strong>Instagram: </strong>sivaprakashforu007</li>
+                                            <li><strong>Facebook: </strong>sivaprakashforu</li>
+                                        
+                                        </ul>
+                                    </td>
+                                
+                                </tr>
+                                
+                                    
+                         
+                            </table>
+                            
+                            <table>
+
+                            
+                            </table>
+                        
+                        </form>
+                        <hr>
+                        <p class="foot">Copyrights &copy; Siva Prakash, Big Prime.</p>
+                
+                    </div>
+            </footer>
+        </div>
+    </body>
+
+</html>
